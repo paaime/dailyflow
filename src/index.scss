@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Roboto Mono", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");
+}
+
+* {
+  font-family: "Roboto Mono";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.main-wrapper {
+  max-width: 1000px;
+  height: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.widget {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 250px;
+}

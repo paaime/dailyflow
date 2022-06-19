@@ -1,0 +1,50 @@
+.weather {
+  display: flex;
+  justify-content: space-around;
+  .temp {
+    display: flex;
+    justify-content: center;
+    .icon {
+      img {
+        height: 100px;
+      }
+    }
+    .temperature {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .condition {
+        color: black;
+        font-weight: 100;
+        font-size: 1rem;
+      }
+    }
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .more-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 35px;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 15px;
+    }
+  }
+  .wind {
+    span {
+      font-size: 0.5rem;
+      transform: translateY(-5px);
+    }
+  }
+}
